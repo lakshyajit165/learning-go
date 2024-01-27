@@ -1,0 +1,11 @@
+go 1.21.6
+
+// starting v1.18, this file is needed for multi module projects
+// Note: Without the following declarations, cmd "go run ." does not run inside
+// the individual modules
+
+use (
+	./greetings
+	./hello
+	./hello-world
+)
