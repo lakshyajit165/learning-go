@@ -1,0 +1,50 @@
+# Ignore binary files, executables, and logs
+*.exe
+*.out
+*.dll
+*.log
+
+# Ignore build artifacts and dependencies
+/bin/
+/pkg/
+
+# Ignore configuration files
+*.env
+
+# Ignore Go specific files
+*.test
+*.prof
+*.cover
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files
+*_generated.go
+*_string.go
+
+# Ignore vendor directory
+/vendor/
+
+# Ignore test coverage profiles
+*.coverprofile
+
+# Ignore local configuration files
+config.local.json
+config.local.yaml
+
+# Ignore compiled C code
+*.c
+*.h
+
+# Ignore temporary files and directories
+*.tmp
+.tmp/
+.temp/
+
+# Ignore Go module cache
+/go.sum
+/go.mod
